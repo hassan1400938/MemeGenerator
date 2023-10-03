@@ -72,22 +72,19 @@ body {
 .main--meme {
   position: relative;
   margin-top: 36px;
-  width: 477px;
-  min-height: 268px;
-  border-radius: 2px;
-  background: lightgray;
 }
 .meme--img {
-  max-width: 477px;
+  width: 477px;
   object-fit: cover;
+  border-radius: 3px;
 }
 .meme--setup {
   position: absolute;
-  top: 16px;
+  top: 10%;
 }
 .meme--punchline {
   position: absolute;
-  bottom: 16px;
+  bottom: 10%;
 }
 
 .meme--setup,
